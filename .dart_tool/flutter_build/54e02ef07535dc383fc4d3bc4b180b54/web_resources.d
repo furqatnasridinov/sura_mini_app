@@ -1,0 +1,1 @@
+:  /Users/nasridinrovfurkatjon/development/flutter_projects/quran_suras/web/index.html

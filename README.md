@@ -64,7 +64,7 @@ flutter run -d chrome
 ## Шаг 4 — Собрать продакшн билд
 
 ```bash
-flutter build web --release --base-href /
+flutter build web --release --base-href "/quran_suras_mini_app/"
 ```
 
 Результат: папка `build/web/` — это и есть твой сайт.
