@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="/">
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="114 Сур Священного Корана — учим названия сур">
+
+  <!-- iOS meta tags -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="114 Сур">
+
+  <!-- Responsive viewport — critical for Telegram Mini App -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <!--
+    Telegram Mini App JavaScript SDK.
+    This MUST be loaded before Flutter boots so TelegramService can access it.
+    Provides: window.Telegram.WebApp (theme, haptics, close, expand, etc.)
+  -->
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+
+  <title>114 Сур Корана</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Prevent flash of white background before Flutter renders -->
+  <style>
+    body {
+      background-color: #0D1117;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
