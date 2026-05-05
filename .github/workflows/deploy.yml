@@ -21,7 +21,7 @@ jobs:
 
       - run: flutter pub get
 
-      - run: flutter build web --release --base-href "/quran_suras_mini_app/"
+      - run: flutter build web --release --base-href "/sura_mini_app/"
 
       - uses: actions/upload-pages-artifact@v2
         with:
